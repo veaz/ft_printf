@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "../inc/ft_printf.h"
 
 int	ft_printf(const char *s, ...)
 {
@@ -38,17 +38,3 @@ int	ft_printf(const char *s, ...)
 	va_end(args);
 	return (count);
 }
-int test;
-
-test = 1000;
-printf ("prueba = %i, %c\n", test, 't')
-
-args == 48, 20, 50, 't'
-
-va_arg(args, int) = 48
-
-args == 20, 50, 't'
-
-va_arg(args, int)
-va_arg(args, int)
-va_arg(args, char)
