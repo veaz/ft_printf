@@ -13,6 +13,7 @@ all: $(NAME)
 
 $(NAME): $(OBJS)
 	$(AR) $(NAME) $(OBJS)
+	@echo "\x1b[32mCompilation successful\x1b[0m"
 
 clean:
 	$(RM) $(OBJS)

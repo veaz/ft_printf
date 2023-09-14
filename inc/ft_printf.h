@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vaguilar <vaguilar@student.42barcel>       +#+  +:+       +#+        */
+/*   By: vaguilar <vaguilar@student.42barcelona.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/09 12:19:03 by vaguilar          #+#    #+#             */
-/*   Updated: 2022/02/09 12:19:05 by vaguilar         ###   ########.fr       */
+/*   Updated: 2023/09/14 19:57:13 by vaguilar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,21 +17,13 @@
 # include <unistd.h>
 
 int			ft_putchar(char c);
-
 int			ft_putstr(char *s);
-
 int			ft_get_base(char *base);
-
 int			ft_print_p(unsigned long long temp);
-
 int			ft_print_s(char *str);
-
 int			ft_putnbr_base(int nbr, char *base, int use);
-
 int			ft_putp(unsigned long long nbr, char *base);
-
 int			ft_printargs(const char *s, va_list args);
-
 int			ft_printf(const char *s, ...);
 
 #endif
