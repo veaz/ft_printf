@@ -3,7 +3,7 @@ SRCS = 	src/ft_printf.c \
 		src/ft_utils.c
 
 NAME = libftprintf.a
-CFLAGS = -Wall -Werror -Wextra
+CFLAGS = -Wall -Werror -Wextra -I ./include
 RM = rm -f
 OBJS = $(SRCS:.c=.o)
 AR = ar -rcs
